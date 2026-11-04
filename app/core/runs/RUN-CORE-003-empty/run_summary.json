@@ -1,0 +1,45 @@
+{
+ "data": "demo_data",
+ "finished": "2026-11-03T02:59:47Z",
+ "grade": {
+  "alert_fires_match": 0,
+  "alert_rule_match": 0,
+  "cases": 0,
+  "misses": [],
+  "pass": 0,
+  "reason_code_match": 0,
+  "rule_misses": [],
+  "state_match": 0
+ },
+ "ledger_head_sha256": "25a2d1d507e3f6130cdaa12af1a242ab1f3d36dd5a20c2024a04f0b21773334a",
+ "ledger_rows": 2,
+ "mode": "mock",
+ "model": "mock-fixture-oracle",
+ "muse_spark_called": false,
+ "run_alerts": [
+  {
+   "rule_id": "A2_EMPTY_RUN",
+   "scope": "run",
+   "severity": "critical",
+   "why": "run processed 0 case(s), 0 assertion(s), 0 receipt(s)"
+  }
+ ],
+ "run_id": "RUN-CORE-003-empty",
+ "started": "2026-11-03T02:59:47Z",
+ "status": "FAILED",
+ "suite": "empty",
+ "totals": {
+  "alerts": 1,
+  "assertions": 0,
+  "call_errors": 0,
+  "calls": 0,
+  "cases": 0,
+  "receipts": 0
+ },
+ "verdict_counts": {
+  "PENDING": 0,
+  "REFUTED": 0,
+  "SUBSTANCE": 0,
+  "UNVERIFIED": 0
+ }
+}

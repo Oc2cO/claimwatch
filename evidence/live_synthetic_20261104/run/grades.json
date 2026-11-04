@@ -1,0 +1,43 @@
+{
+ "cases": [
+  {
+   "case_id": "DEMO-CASE-901",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  }
+ ],
+ "summary": {
+  "alert_fires_match": 1,
+  "alert_rule_match": 1,
+  "cases": 1,
+  "misses": [],
+  "pass": 1,
+  "reason_code_match": 1,
+  "rule_misses": [],
+  "state_match": 1
+ }
+}

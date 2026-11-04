@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:10,000
+ClaimWatch — evidence before verdict. Recorded output from a fictional synthetic live run. No call is happening now.
+
+2
+00:00:10,000 --> 00:00:20,000
+The saved input pairs one synthetic checksum claim with one fictional receipt, R1.
+
+3
+00:00:20,000 --> 00:00:30,000
+Archived M1 response: HTTP 200. One checkable existence assertion. 183 input, 254 output tokens.
+
+4
+00:00:30,000 --> 00:00:40,000
+Archived M2 response: HTTP 200. R1 supports the assertion. 292 input, 224 output tokens.
+
+5
+00:00:40,000 --> 00:00:50,000
+Actual saved dashboard: one case, two calls, six ledger rows, SUBSTANCE citing R1; chain and replay passed.
+
+6
+00:00:50,000 --> 00:01:00,000
+Separate M1 attempt 001 failed schema; diagnostic 002 passed. The first failure cause is unknown.
+
+7
+00:01:00,000 --> 00:01:10,000
+Separate mock benchmark: 68 of 70; misses BULK-108 and BULK-205. One live case is not a quality claim.

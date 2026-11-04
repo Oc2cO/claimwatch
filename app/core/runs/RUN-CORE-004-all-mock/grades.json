@@ -1,0 +1,2022 @@
+{
+ "cases": [
+  {
+   "case_id": "BULK-101",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-102",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-103",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-104",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "PRICING_STALE",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-105",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-106",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-107",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-108",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": false
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [],
+    "reason": "SOURCE_UNREACHABLE",
+    "state": "PENDING"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": false,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-109",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-110",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-111",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [],
+    "reason": "CLAIM_UNCHECKABLE",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-112",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-113",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "TEMPORAL_MISMATCH",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-114",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-115",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-116",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-117",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-118",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "SCOPE_MISMATCH",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-119",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "SCOPE_MISMATCH",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-120",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-121",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-301",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-302",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-303",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-304",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-305",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-306",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-307",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-308",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-309",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-310",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-311",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-312",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-313",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-314",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-315",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-316",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-317",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-318",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-319",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-320",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-321",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-322",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-323",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-324",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-325",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-326",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-327",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-328",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-329",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-330",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-331",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-332",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-333",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-334",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-335",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-336",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-201",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [],
+    "reason": "CLAIM_UNCHECKABLE",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-202",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-203",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "TEMPORAL_MISMATCH",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-204",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [],
+    "reason": "SOURCE_UNREACHABLE",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-205",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": false
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [],
+    "reason": "SOURCE_UNREACHABLE",
+    "state": "PENDING"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": false,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-206",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-207",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [],
+    "reason": "CLAIM_UNCHECKABLE",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": false,
+   "rule_match": true
+  },
+  {
+   "case_id": "BULK-208",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "must_cite": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "DEMO-CASE-001",
+   "checks": {
+    "alert_fires": true,
+    "history_preserved": true,
+    "history_states": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A1_VERDICT_DOWNGRADE",
+    "must_cite": [
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A1_VERDICT_DOWNGRADE",
+    "cited": [
+     "R1",
+     "R2",
+     "R3",
+     "R4",
+     "R5"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "DEMO-CASE-002",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "none",
+    "must_cite": [
+     "R1",
+     "R2"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "got": {
+    "alert": "none",
+    "cited": [
+     "R1",
+     "R2"
+    ],
+    "reason": "EVIDENCE_SUFFICIENT",
+    "state": "SUBSTANCE"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "DEMO-CASE-003",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A4_REFUTED",
+    "must_cite": [
+     "R1",
+     "R2"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "got": {
+    "alert": "A4_REFUTED",
+    "cited": [
+     "R1",
+     "R2"
+    ],
+    "reason": "EVIDENCE_CONTRADICTS",
+    "state": "REFUTED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "DEMO-CASE-004",
+   "checks": {
+    "alert_fires": true,
+    "case_status": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A2_EMPTY_RUN",
+    "must_cite": [],
+    "reason": "RUN_EMPTY",
+    "state": "PENDING"
+   },
+   "got": {
+    "alert": "A2_EMPTY_RUN",
+    "cited": [],
+    "reason": "RUN_EMPTY",
+    "state": "PENDING"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": true,
+   "rule_match": true
+  },
+  {
+   "case_id": "DEMO-CASE-005",
+   "checks": {
+    "alert_fires": true,
+    "must_cite": true,
+    "must_not": true,
+    "state": true
+   },
+   "expected": {
+    "alert": "A5_DUPLICATE_FLOOD",
+    "must_cite": [
+     "R1"
+    ],
+    "reason": "DUPLICATE_CLAIM",
+    "state": "UNVERIFIED"
+   },
+   "got": {
+    "alert": "A3_UNSUPPORTED_ASSERTION",
+    "cited": [
+     "R1"
+    ],
+    "reason": "EVIDENCE_MISSING",
+    "state": "UNVERIFIED"
+   },
+   "must_not_violated": [],
+   "pass": true,
+   "reason_match": false,
+   "rule_match": false
+  }
+ ],
+ "summary": {
+  "alert_fires_match": 70,
+  "alert_rule_match": 69,
+  "cases": 70,
+  "misses": [
+   "BULK-108",
+   "BULK-205"
+  ],
+  "pass": 68,
+  "reason_code_match": 58,
+  "rule_misses": [
+   "DEMO-CASE-005"
+  ],
+  "state_match": 68
+ }
+}

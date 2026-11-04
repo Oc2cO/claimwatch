@@ -1,0 +1,73 @@
+{
+  "schema": "claimwatch-public-live-proof-v1",
+  "run_id": "CW-SYNTHETIC-CORE-20261104-001",
+  "test_scope": "one fictional synthetic case; live model requests through the ClaimWatch core",
+  "event_utc": "2026-11-04T21:05:25Z/2026-11-04T21:05:33Z",
+  "model": "muse-spark-1.3",
+  "live_pipeline": {
+    "http_200_responses": 2,
+    "calls": [
+      {
+        "step": "M1",
+        "input_tokens": 183,
+        "output_tokens": 254
+      },
+      {
+        "step": "M2",
+        "input_tokens": 292,
+        "output_tokens": 224
+      }
+    ],
+    "status": "SUCCESS",
+    "verdict": "SUBSTANCE",
+    "cited_evidence": [
+      "R1"
+    ],
+    "grader": "1/1",
+    "ledger_rows": 6,
+    "ledger_chain_replay": "PASS",
+    "sanitization": "CLEAN",
+    "call_errors": 0
+  },
+  "separate_diagnostics": [
+    {
+      "attempt": "standalone M1 001",
+      "http_status": 200,
+      "input_tokens": 197,
+      "output_tokens": 512,
+      "schema": "FAIL",
+      "retry": false,
+      "cause": "unknown; reaching token cap does not prove truncation"
+    },
+    {
+      "attempt": "standalone M1 diagnostic 002",
+      "http_status": 200,
+      "input_tokens": 197,
+      "output_tokens": 352,
+      "schema": "PASS",
+      "finish": "stop",
+      "retry": false
+    }
+  ],
+  "combined_attempts": {
+    "http_posts": 4,
+    "input_tokens": 869,
+    "output_tokens": 1342
+  },
+  "scope_limit": "one successful synthetic end-to-end case; not a multi-case live benchmark or accuracy/reliability claim",
+  "evidence": {
+    "source_full_run_receipt_sha256": "30df5a4a7d236a68a7ac4d698181b950b2889b883b3f3e8afc54b3a2e1a3b9db",
+    "standalone_m1_attempt001_receipt_sha256": "a997032a2eb88a4582a628b7018a8e5140d0bd9a9962ce9f4dfeb257f173af49",
+    "standalone_m1_attempt002_receipt_sha256": "17e21c2883d11c95aed8047755f4ede527c596afe685909bbf2666f7508993e6",
+    "files_sha256": {
+      "input/claims.schema.json": "2e0f255af9fe6247aac732fe8d5de0690a33bae5a05eb92955c959fec9bd4a20",
+      "input/claims.jsonl": "1bb9238d450e856576a851e865c8d38538e3b0727020e4fe00d626022a9e3114",
+      "run/alerts.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "run/calls.jsonl": "6478afb37b6f2d85896c4bfa037bd11fbd19a44ea128e8e109f839a05c47fda1",
+      "run/grades.json": "cfb0827cf7fb09d53ec3251766a8c45f6a43dc7406be07fa88f39cb43e17723a",
+      "run/ledger.jsonl": "5eb0694052a0402a35ffb4deda1116ac32b49de8bd49a9c20c9988b398916d76",
+      "run/run_summary.json": "9f1da57dead7992f61f324b97e268e9f7b4c4e77fd546cdb385fbfffa995ed84",
+      "run/verdicts.jsonl": "511a523a28c435b239c639cf9fe7bdaeb82f7fb91b4a9f9a001ac525d7bae957"
+    }
+  }
+}
