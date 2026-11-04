@@ -1,0 +1,43 @@
+{
+ "data": "demo_data",
+ "finished": "2026-11-03T02:59:48Z",
+ "grade": {
+  "alert_fires_match": 70,
+  "alert_rule_match": 69,
+  "cases": 70,
+  "misses": [
+   "BULK-108",
+   "BULK-205"
+  ],
+  "pass": 68,
+  "reason_code_match": 58,
+  "rule_misses": [
+   "DEMO-CASE-005"
+  ],
+  "state_match": 68
+ },
+ "ledger_head_sha256": "1f3efed370034de559499a0f17c90dd7695e4916847999c74b9b90d1a8d345d9",
+ "ledger_rows": 396,
+ "mode": "mock",
+ "model": "mock-fixture-oracle",
+ "muse_spark_called": false,
+ "run_alerts": [],
+ "run_id": "RUN-CORE-004-all-mock",
+ "started": "2026-11-03T02:59:48Z",
+ "status": "PARTIAL",
+ "suite": "all",
+ "totals": {
+  "alerts": 50,
+  "assertions": 75,
+  "call_errors": 0,
+  "calls": 135,
+  "cases": 70,
+  "receipts": 66
+ },
+ "verdict_counts": {
+  "PENDING": 1,
+  "REFUTED": 21,
+  "SUBSTANCE": 21,
+  "UNVERIFIED": 27
+ }
+}

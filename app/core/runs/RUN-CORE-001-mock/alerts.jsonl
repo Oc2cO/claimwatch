@@ -1,0 +1,5 @@
+{"case_id":"DEMO-CASE-001","primary":true,"rule_id":"A1_VERDICT_DOWNGRADE","severity":"high"}
+{"case_id":"DEMO-CASE-001","primary":false,"rule_id":"A3_UNSUPPORTED_ASSERTION","severity":"medium"}
+{"case_id":"DEMO-CASE-003","primary":true,"rule_id":"A4_REFUTED","severity":"high"}
+{"case_id":"DEMO-CASE-004","primary":true,"rule_id":"A2_EMPTY_RUN","severity":"critical"}
+{"case_id":"DEMO-CASE-005","primary":true,"rule_id":"A3_UNSUPPORTED_ASSERTION","severity":"medium"}

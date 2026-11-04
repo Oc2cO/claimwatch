@@ -1,0 +1,39 @@
+{
+ "data": "input",
+ "finished": "2026-11-04T21:05:33Z",
+ "grade": {
+  "alert_fires_match": 1,
+  "alert_rule_match": 1,
+  "cases": 1,
+  "misses": [],
+  "pass": 1,
+  "reason_code_match": 1,
+  "rule_misses": [],
+  "state_match": 1
+ },
+ "ledger_head_sha256": "70198ed1a4aed5c92178a7baf435a3337050b9bdb709778fbba46d118a382ffa",
+ "ledger_rows": 6,
+ "live_request_attempted": true,
+ "mode": "live",
+ "model": "muse-spark-1.3",
+ "muse_spark_called": true,
+ "run_alerts": [],
+ "run_id": "CW-SYNTHETIC-CORE-20261104-001",
+ "started": "2026-11-04T21:05:25Z",
+ "status": "SUCCESS",
+ "suite": "core_demo",
+ "totals": {
+  "alerts": 0,
+  "assertions": 1,
+  "call_errors": 0,
+  "calls": 2,
+  "cases": 1,
+  "receipts": 1
+ },
+ "verdict_counts": {
+  "PENDING": 0,
+  "REFUTED": 0,
+  "SUBSTANCE": 1,
+  "UNVERIFIED": 0
+ }
+}

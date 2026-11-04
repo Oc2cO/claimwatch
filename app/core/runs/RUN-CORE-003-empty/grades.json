@@ -1,0 +1,13 @@
+{
+ "cases": [],
+ "summary": {
+  "alert_fires_match": 0,
+  "alert_rule_match": 0,
+  "cases": 0,
+  "misses": [],
+  "pass": 0,
+  "reason_code_match": 0,
+  "rule_misses": [],
+  "state_match": 0
+ }
+}
