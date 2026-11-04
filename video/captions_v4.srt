@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:08,000
+MOCK run, labeled honestly. Most agents fail silently. Ours fails out loud, with a receipt.
+
+2
+00:00:08,000 --> 00:00:28,000
+Empty run -> STATUS FAILED · alert A2_EMPTY_RUN · muse_spark_called: false
+
+3
+00:00:28,000 --> 00:00:55,000
+$400/mo -> $25/mo claim · receipts missing · UNVERIFIED (A1)
+
+4
+00:00:55,000 --> 00:01:10,000
+Checklist: invoices / exports / parity missing · mode: mock
+
+5
+00:01:10,000 --> 00:01:35,000
+SUBSTANCE -> UNVERIFIED · A1_VERDICT_DOWNGRADE
+
+6
+00:01:35,000 --> 00:01:50,000
+Missing evidence is not false · Contradicts = REFUTED
+
+7
+00:01:50,000 --> 00:02:20,000
+70 cases · 68/70 · misses: BULK-108, BULK-205
+
+8
+00:02:20,000 --> 00:02:38,000
+Tamper one ledger row -> verify fails at that line
+
+9
+00:02:38,000 --> 00:02:58,000
+ClaimWatch · receipts or honesty · MOCK · Indie
